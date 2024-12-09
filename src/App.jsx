@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './counter';
+import Team from './Team';
 
 function App() {
   function handleClick(){
@@ -16,6 +17,7 @@ function App() {
     <h2>Exploring React Part-2</h2>
 
     <Counter></Counter>  
+    <Team></Team>
     
     {/* Outer function declared with function keyword */}
     <button onClick={handleClick}>Button-1</button>
