@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './counter';
 
 function App() {
   function handleClick(){
@@ -13,7 +14,9 @@ function App() {
   return (
     <>
     <h2>Exploring React Part-2</h2>
-      
+
+    <Counter></Counter>  
+    
     {/* Outer function declared with function keyword */}
     <button onClick={handleClick}>Button-1</button>
 
