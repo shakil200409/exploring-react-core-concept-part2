@@ -7,10 +7,13 @@ function App() {
   const handleClick2 = ()=>{
     alert('Button 2 Clicked');
   }
+  const addFive = (num)=>{
+    alert(num + 5);
+  } 
   return (
     <>
     <h2>Exploring React Part-2</h2>
-    
+      
     {/* Outer function declared with function keyword */}
     <button onClick={handleClick}>Button-1</button>
 
@@ -19,7 +22,11 @@ function App() {
 
     {/* Anonymus Function */}
     <button onClick={() => alert('Button 3 Clicked')}>Button-3</button>
+
+    {/* Dealing with functions with params */}
+    <button onClick={()=> addFive(4)}>Add Five</button>
     </>
+
   )
 }
 
