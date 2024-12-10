@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './counter';
+import Friends from './Friends';
 import Team from './Team';
 import Users from './Users';
 
@@ -16,6 +17,8 @@ function App() {
   return (
     <>
     <h2>Exploring React Part-2</h2>
+
+    <Friends></Friends>
 
     <Users></Users>
     <Counter></Counter>  
